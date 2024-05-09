@@ -63,6 +63,17 @@ export const DashboardMenu = [
 		icon: 'layout',
 		link: '/layout-vertical'
 	},	
+
+	{
+		id: uuid(),
+		title: 'Portaria ',
+		icon: 'lock',
+		children: [
+			{ id: uuid(), link: '/pages/portaria/visitantes', name: 'Visitantes' },
+				
+		]
+	},
+
 	{
 		id: uuid(),
 		title: 'UI COMPONENTS',
